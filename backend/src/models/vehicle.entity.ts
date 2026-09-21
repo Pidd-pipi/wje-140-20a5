@@ -12,4 +12,5 @@ export class VehicleEntity {
   @Column('float') mileage!: number;
   @Column('float') tankCapacity!: number;
   @Column('float') dailyFixedCost!: number;
+  @Column({ nullable: true }) maintenanceRecordId?: number | null;
 }
