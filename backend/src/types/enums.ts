@@ -1,5 +1,6 @@
 export enum VehicleStatus { Available = 'Available', OnTrip = 'OnTrip', Maintenance = 'Maintenance', Retired = 'Retired' }
 export enum DispatchStatus { Draft = 'Draft', Assigned = 'Assigned', InProgress = 'InProgress', Completed = 'Completed', Cancelled = 'Cancelled' }
+export enum MaintenanceStatus { Scheduled = 'Scheduled', InProgress = 'InProgress', Completed = 'Completed' }
 export enum MaintenanceType { Routine = 'Routine', Repair = 'Repair', Emergency = 'Emergency', Inspection = 'Inspection' }
 export enum DriverStatus { Available = 'Available', OnTrip = 'OnTrip', Leave = 'Leave', Suspended = 'Suspended' }
 export enum PaymentMethod { Cash = 'Cash', Card = 'Card', Company = 'Company', ETC = 'ETC' }
